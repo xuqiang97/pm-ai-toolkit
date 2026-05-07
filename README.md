@@ -4,7 +4,8 @@
 > 时长：约 60 min  
 > 主题：产品经理如何用 AI 工具提升需求分析、文档产出、原型设计、数据分析和协同效率  
 > 核心定位：这不是 AI 工具分享，而是产品经理从接需求到交付上线的 AI 工作流训练。  
-> GitHub Pages阅读：[PM AI Toolkit](https://xuqiang97.github.io/pm-ai-toolkit/)
+> GitHub Pages（预览阅读）：[PM AI Toolkit](https://xuqiang97.github.io/pm-ai-toolkit/#/)  
+> GitHub 仓库（查看原文）：[xuqiang97/pm-ai-toolkit](https://github.com/xuqiang97/pm-ai-toolkit)（复制 Prompt / 查看 Mermaid 更方便）
 
 ---
 
