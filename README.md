@@ -1,6 +1,6 @@
 # PM 岗位 AI 应用实战分享
 
-> - v7.3 · 约 120 min · 产品经理 AI 应用交流分享
+> - v7.5 · 约 120 min · 产品经理 AI 应用交流分享
 > - 这份文档既是分享主线，也作为课后 Prompt 资料库使用。
 > - 分享围绕产品经理真实工作流展开，完整 30 个 Tip 作为课后资料库保留。
 > - GitHub Pages（预览阅读）：[PM AI Toolkit](https://xuqiang97.github.io/pm-ai-toolkit/#/)
@@ -716,15 +716,34 @@ Projects 可以理解为一个带长期记忆的项目空间。
 
 ---
 
-## 进阶二：Canvas / 长文档协作
+## 进阶二：PM Skills / 工作流模板化
 
-Canvas 可以理解为一个更适合写长文档和改代码的协作界面。
+Codex 的 Skill 可以理解成一份可复用的工作说明书。它不是让产品经理去写代码，而是把团队里反复会做的产品工作，沉淀成一套清晰的步骤、检查标准和输出格式。
 
-相比普通聊天窗口，它更适合修改 PRD、修改 HTML、修改长篇方案、持续迭代同一份材料、对文档局部进行优化。
+对产品经理来说，比较适合沉淀成 Skill 的场景包括：
 
-使用建议：
+1. PRD 完整度检查。
+2. MVP 范围收敛。
+3. 需求变更影响分析。
+4. 验收用例生成。
+5. 上线公告、操作手册、FAQ 生成。
+6. 项目复盘和经验沉淀。
 
-> 用普通对话讨论方向，用 Canvas 持续打磨正文。
+可以这样理解：
+
+> Prompt 是一次性的提问，Skill 是可复用的工作流。
+
+一些 PM 资源网站可以作为 Skill 素材来源：
+
+| 资源 | 适合沉淀的内容 |
+|---|---|
+| [OpenAI Academy：Plugins and skills](https://openai.com/academy/codex-plugins-and-skills/) | 理解 Codex Skills 如何把团队工作方式变成 playbook |
+| [Product School Templates](https://productschool.com/resources/templates) | PRD、用户故事、产品策略、AI PRD 等模板 |
+| [ChatPRD Templates](https://www.chatprd.ai/templates) | PRD、One-pager、User Story、Roadmap 等偏 AI 原生的 PM 模板 |
+| [HelpWithPM](https://helpwithpm.com/) | PM 基础知识、PRD、优先级、指标、模板 |
+| [SVPG Product Model Concepts](https://www.svpg.com/product-model-concepts/) | 产品判断、产品模型、团队协作理念 |
+
+这些网站本身不一定直接支持 Codex，但里面的模板、流程和检查清单，都可以整理成 Markdown，再变成 Codex Skill 或团队内部工作流模板。
 
 ---
 
@@ -770,7 +789,7 @@ Canvas 可以理解为一个更适合写长文档和改代码的协作界面。
 ```text
 普通对话
   ↓
-Projects / Canvas
+Projects / PM Skills
   ↓
 HTML 原型
   ↓
@@ -778,6 +797,13 @@ GitHub Pages
   ↓
 Codex / Claude Code 项目级协作
 ```
+
+补充学习资料：
+
+| 资料 | 链接 |
+|---|---|
+| Codex 讲解 | [微信公众号文章](https://mp.weixin.qq.com/s/rTE2vLqocDhyLeoaiXaHUg) |
+| Codex 指南 | [飞书文档](https://my.feishu.cn/wiki/OCY5wzbGhiLDr8kMulkcLLuSnQd) |
 
 ---
 
@@ -1301,8 +1327,8 @@ SQL 清晰可读，不要过度复杂。
 | 钉钉 AI 听记 | 中文会议听记、语音转文字 |
 | GitHub Desktop | 图形化管理 HTML 原型文件 |
 | GitHub Pages | 把 HTML 原型发布成网页链接 |
-| Canvas | 长文档和代码的持续编辑 |
-| Codex / Claude Code | 进阶项目级协作 |
+| Codex Skills | 把 PM 工作流沉淀成可复用 playbook |
+| Codex / Claude Code | 项目级协作和多文件维护 |
 | 国内备选工具 | 豆包、Kimi、通义、智谱等 |
 
 ---
@@ -1326,7 +1352,7 @@ AI 工具很多，先掌握一条高频工作流更重要。
 | 建议先学 | ChatGPT / Claude / Gemini 任选其一 | 需求拆解、文档生成、原型设计、数据分析 |
 | 推荐掌握 | Projects / NotebookLM | 长期项目、长文档、知识库问答 |
 | 场景工具 | 钉钉 AI 听记 | 会议纪要、语音转文字 |
-| 进阶工具 | GitHub Pages / Canvas / Codex / Claude Code / MCP | 原型发布、文档协作、项目级自动化 |
+| 进阶工具 | GitHub Pages / Codex Skills / Codex / Claude Code / MCP | 原型发布、工作流模板化、项目级协作 |
 
 ### 3. 工具策略
 
